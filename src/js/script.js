@@ -85,6 +85,9 @@ $(document).ready(function(){
     valideForms('#consultation form');
     valideForms('#order form');
 
+    //Маска для номера в форме
+    $('input[name=phone]').mask("+7 (999) 999-99-99");
+
 });
 
 
